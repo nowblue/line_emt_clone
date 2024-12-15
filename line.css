@@ -1,0 +1,340 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+fieldset,
+legend,
+figure,
+menu {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+table,
+th,
+td {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: normal
+}
+
+body,
+input,
+textarea,
+keygen,
+select,
+button {
+    font: normal 12px/1.2 'Open Sans', 'Noto Sans', sans-serif
+}
+
+input,
+textarea,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #333;
+    outline: 0;
+    vertical-align: middle
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none
+}
+
+a,
+button,
+input[type='submit'],
+input[type='button'],
+input[type='reset'] {
+    border: 0;
+    background: transparent;
+    cursor: pointer
+}
+
+img {
+    border: 0;
+    vertical-align: top
+}
+
+.wrap{
+    margin: 0 auto;
+    position: relative;
+}
+
+.top{
+    background:#313131;
+    height: 70px;
+    min-width: 1300px;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    margin: 25px 0px 0px 30px;
+}
+
+.logo img{
+    width: 140px;
+}
+
+.search-box {
+    background-color: #282928;
+    height: 20px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    width: 220px;
+    float: left;
+    margin: 15px 5px 5px 70px;
+  }
+
+.search-btn {
+    color: #EDEDED;
+    float: right;
+    width: 40px;
+    background: #282928;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+
+.search-txt {
+    float: left;
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: #e0e0e0;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.nav-utility{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 25px 20px 0px 0px;
+}
+
+.nav-util-list{
+    color: #848484;
+    font-size: 14px;
+    border-right: 1px solid #444;
+    padding: 0px 15px;
+}
+
+.nav-util-list:last-child{
+    border: none;
+}
+
+.nav-util-list img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.menu-area{
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+.leftmenu{
+    margin: 30px 27px;
+}
+
+.leftmenu-title{
+    color: #bec0c7;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.leftmenu-content{
+    color:black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.leftmenu hr{
+    background-color: #ebebeb;
+    /*color로 설정했을 때는 안 먹었는데, background-color로 바꾸니 기능이 먹힌다. 이유가 뭘까,,? */
+    height: 1px;
+    margin: 20px 0px;
+    border: 0px;
+}
+
+.main-area{
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 1px;
+    position: relative;
+    /* 다시 해보기 */
+}
+
+.slider-link{
+    display: flex;
+}
+
+.category-fullarea{
+    max-width: 1041px;
+}
+
+.category{
+    padding: 30px 0 30px 40px;
+    color: #848484;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-title{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.more img{
+    margin-left: 6px;
+    width: 6px;
+}
+
+.sticker-list{
+    display: flex;
+}
+
+.emoticon{
+    width: 120px;
+    margin-right: 58px;
+}
+
+.emoticon:first-child{
+    margin-left: 35px;
+}
+
+.emoticon-img{
+    width: 120px;
+}
+
+.play{
+    width:25px;
+    position: absolute;
+    /* bottom: 50px; */
+    /* 왜 z-index가 적용이 안 되는가... */
+}
+
+.emoticon-name{
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px 0 0 0px;
+}
+
+.ad{
+    font-size: 12px;
+    color: #3e92cc;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 2px;
+}
+
+.contour{
+    background-color: #ebebeb;
+    height: 1px;
+    margin: 50px 0px 0px 10px;
+    border: 0px;
+    /* 왼쪽에 마진이 있는 것처럼 조금 띄어서 그려지는데, 이건 이유가 뭘까? */
+}
+
+.bottom-of-page{
+    max-width: 1041px;
+    display: inline-flex;
+}
+
+.bottom-emt{
+    width: 50%;
+}
+
+.ad-banner{
+    background-color: #ecf0f1;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 40px;
+}
+
+.ad-banner img{
+    width: 540px;
+}
+
+.footer{
+    background-color: #f7f7fc;
+    border-top: 1px solid #e6e6e6;
+    padding: 25px;
+}
+
+.info{
+    display: inline-flex;
+    margin-bottom: 5px;
+}
+
+.info-list{
+    color:#707072;
+    font-size: 12px;
+    border-right: 1px solid #dddde1;
+    padding: 0px 10px;
+}
+/* 왜 a tag의 링크에는 color가 적용되지 않는가? */
+
+.refer-list{
+    color:#9d9da1;
+    font-size: 11px;
+    padding: 5px 0px 0px 10px;
+}
+
+.selectBox{
+    position: absolute;
+    right: 400px;
+    bottom: 90px;
+}
+
+
+/* 문제점
+    1. 텍스트가 화면 비율에 따라 움직인다. display를 block으로 변경해줘야하나...?
+    2. selectbox 수정 못 하겠다...
+    3. 왼쪽 메뉴바와 메인 콘텐츠 영역을 구분해주는 선을 구현하지 못했다.
+    4. 플레이버튼을 제대로 위치시키지 못했다.
+    5. 마지막 footer 영역에서 a tag에 적용시킨 color가 작동하지 않았다.(그래서 직접 html 파일에 style로 집어넣었다.)
+    6. 시간이 오래 걸렸다.
+*/
